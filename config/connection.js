@@ -8,7 +8,6 @@ var connection = mysql.createConnection({
     database: "burgers_db"
 });
 connection.connect(function(err) {
-    // if error reject a promise
     if (err) {
         console.log(err);
     } else {
